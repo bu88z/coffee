@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
+
+body {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+
+	background-color: #999999;
+	background-image: url(../images/background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+
+	width: 680px;
+	margin: 0 auto 0 auto;
+
+	color: #000000;
+}
+
+header {
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+nav {
+	background: #fee34c;
+	padding: 20px 0;
+	text-align: center;
+}
+
+nav a {
+	color: #444444;
+	font-weight: bold;
+	padding: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: #666666;
+}
+
+/* Sections */
+
+section {
+	background: #ffffff;
+	padding: 20px 40px;
+}
+
+section.quotes {
+	background-color: #e3e7e6;
+}
+
+section.quotes p{
+	text-align: right;
+}
+
+blockquote {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 20px 0;
+}
+
+footer {
+	text-align: center;
+	padding: 40px 0;
+}
+
+a {
+	color: #658099;
+}
+
+p.caption {
+	text-align: right;
+	font-size: 12px;
+
+	margin: 0;
+	padding: 10px 0 15px 0;
+	border-bottom: 1px solid #eeeeee;
+
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+@media screen and (max-width: 720px) {
+	body {
+		width: auto;
+	}
+
+	img, iframe {
+		max-width: 100%;
+	}
+
+	nav a {
+		display: block;
+		padding: 10px 20px;
+	}
+}
